@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  /* background-image: url('./components/repeated-square.png'); */
+}
+
+.status-and-file-container-class {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}

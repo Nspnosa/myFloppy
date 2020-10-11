@@ -1,0 +1,66 @@
+.file-container-class {
+  max-width: 500px;
+  min-width: 300px;
+  width: 100%;
+  height: 110px;
+  border-radius: 5px;
+  background-color: #eee;
+  color: #444;
+  margin-top: 10px;
+  box-shadow: 0 8px 10px -10px black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px 0 40px;
+  font-size: small;
+}
+
+.file-container-logo-container {
+  height: 60px;
+  width: 60px;
+  background-color: aqua;
+  border-radius: 50%;
+}
+
+.file-container-info-container {
+  height: 100px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.file-container-info-label {
+  margin: 0;
+}
+
+.file-container-wait-class {
+  justify-content: center;
+  align-items: center;
+}
+.file-container-button-container {
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: center;
+}
+@media screen and (max-width: 800px) {
+  /* applies styles to any device screen sizes below 800px wide */
+  .file-container-class {
+    height: 80px;
+  }
+  .file-container-info-container {
+    height: 70px;
+  }
+  .file-container-info-label {
+    font-size: small;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .file-container-button-container {
+    height: 70px;
+  }
+}
